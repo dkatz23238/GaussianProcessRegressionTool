@@ -32,8 +32,7 @@ if __name__ == "__main__":
     mae = mean(abs( results.predicted - results.y_true ))
 
     print(f"Mean Absoloute Error: {mae}")
-    plot_results(results)
-
-
+    # Uncomment the following line to plot results:
+    # plot_results(results)
     save_results(results, RESULTS_ROOT_PATH)
 

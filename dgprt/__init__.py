@@ -11,7 +11,8 @@ from sklearn import preprocessing
 
 def plot_results(results):
     plt.style.use('ggplot')
-    plt.plot(results.index.tolist(), results.y_true.values,  label="true")
+    plt.title("GPRegression with GPytorch")
+    plt.scatter(results.index.tolist(), results.y_true.values,color="blue", label="true", alpha=0.5)
     plt.plot(results.index, results.predicted.values, label="pred")
     plt.fill_between(results.index.tolist(), results.lower.values, results.upper.values, color="green", label="95%", alpha=0.5)
     plt.legend()

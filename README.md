@@ -1,4 +1,4 @@
-# Gaussian Process Regression with Deep Kernel.
+# GP Regression using a neural network to learn covariance matrix function
 
 Deep kernels allow us to train gp regressions without specifically producing a covariance generation function.
 

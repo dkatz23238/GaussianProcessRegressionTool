@@ -8,7 +8,10 @@ Deep kernels allow us to train gp regressions without specifically producing a c
 Uses Python 3.7+ and GPytorch, dependancies can be found in requirements.txt
 
 ### Quickstart
-``` python gp_singleeval.py ```
+```sh
+python -m pip install -U requirements.txt 
+python gp_singleeval.py 
+```
 
 the hyperparameters that can be tuned and the default are:
 

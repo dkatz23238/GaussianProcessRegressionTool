@@ -115,5 +115,5 @@ def main(LEARNING_RATE, ROLLING_VAL, N1_LAYERS, N2_LAYERS, N_EPOCHS, GRID_SIZE):
     results["lower"] = lower.detach().numpy()
     results["upper"] = upper.detach().numpy()
 
-    return results
+    return results, model
 

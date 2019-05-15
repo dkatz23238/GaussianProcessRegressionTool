@@ -25,7 +25,7 @@ if __name__ == "__main__":
     N_EPOCHS = 25
     GRID_SIZE = 100
 
-    results = main(LEARNING_RATE, ROLLING_VAL, N1_LAYERS,
+    results, model = main(LEARNING_RATE, ROLLING_VAL, N1_LAYERS,
                N2_LAYERS, N_EPOCHS, GRID_SIZE)
     print(results)
 

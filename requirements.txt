@@ -3,3 +3,10 @@ gpytorch
 numpy 
 pandas
 matplotlib
+ax-platform
+sqlalchemy
+haversine
+wheel
+mysqlclient
+pymysql
+cryptography

@@ -1,0 +1,1 @@
+docker run --name ax-sql -p:3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=axdb -d mysql:8
